@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(250, 215, 245, 0.931);
+    color: blue;
+}
+.avatar {
+width: 200px;
+border-radius: 50%;
+box-shadow: 4px 4px 4px rgba(red, green, blue, alpha)
+}
+
+.info p {
+    color: brown(216, 189, 196)
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.social {
+ background: pink;
+ padding-top: 15px;
+ padding-right: 20px;
+ padding-bottom: 25px;
+ padding-left: 30px;
+ margin: 5px;
+
+ border: 5px solid red;
+ border-bottom-style: dotted;
+ border-top-width: 12px ;
+ border-right-color: blueviolet;
+}
+
+
+.box-model > div {
+    float: left;
+    background: pink(255, 255, 255, 0.527);
+    height: 200px;
+    border: 4px solid rgb(229, 255, 0);
+    width: 25%;
+    box-sizing: border-box;
+}
